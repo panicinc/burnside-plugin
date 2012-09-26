@@ -29,6 +29,11 @@ Contributing
 
 Feel free to fork and send us pull requests.
 
+Known Issues
+------------
+
+- The "Format Bar" cannot be displayed at the same time as the Burnside Plugin.
+
 Bug Reporting
 -------------
 
