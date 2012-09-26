@@ -13,10 +13,14 @@ You can compile the plugin from source or grab a pre-compiled version from the D
 
 You may need to execute these commands after each OS or Mail update.
 
+The plugin only becomes active if you're replying to a message to a twitter+ email address. This is the default username used in [burnside](https://github.com/panicinc/burnside).
+
 Configuration
 -------------
 
-Currently there isn't any. The plugin only becomes active if you're replying to a message to a twitter+screename@something email address. This is the default username used in [burnside](https://github.com/panicinc/burnside).
+	defaults write com.apple.Mail Burnside.signature.server " —J"
+
+An example of the signature that's appended by the server. The plugin adds the length of this string to the character count.	
 
 Contributing
 ------------
