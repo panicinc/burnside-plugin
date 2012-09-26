@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1866AFEB1613701900F36BCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1866AFE91613701900F36BCC /* InfoPlist.strings */; };
+		1866AFF81613702800F36BCC /* BurnsideDocumentEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFED1613702800F36BCC /* BurnsideDocumentEditor.m */; };
+		1866AFF91613702800F36BCC /* BurnsideMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFEF1613702800F36BCC /* BurnsideMail.m */; };
+		1866AFFA1613702800F36BCC /* PCCountTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFF11613702800F36BCC /* PCCountTextField.m */; };
+		1866AFFB1613702800F36BCC /* TwitterCharacterCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFF31613702800F36BCC /* TwitterCharacterCounterViewController.m */; };
+		1866AFFC1613702800F36BCC /* TwitterInspectorBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFF51613702800F36BCC /* TwitterInspectorBarController.m */; };
+		1866AFFD1613702800F36BCC /* TwitterUsernameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866AFF71613702800F36BCC /* TwitterUsernameViewController.m */; };
+		1866B0021613706D00F36BCC /* TwitterCharacterCounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866B0001613706D00F36BCC /* TwitterCharacterCounterViewController.xib */; };
+		1866B0031613707400F36BCC /* TwitterUsernameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866B0051613707400F36BCC /* TwitterUsernameViewController.xib */; };
+		18C3C5B1160A6E9800FBE700 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3C5B0160A6E9800FBE700 /* Cocoa.framework */; };
+		18C3C5CA160A887A00FBE700 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3C5C9160A887A00FBE700 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1866AFE51613700A00F36BCC /* Burnside-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Burnside-Info.plist"; path = "BurnsideMail/Burnside-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1866AFE61613700A00F36BCC /* BurnsideMail-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BurnsideMail-Prefix.pch"; path = "BurnsideMail/BurnsideMail-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		1866AFEA1613701900F36BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = BurnsideMail/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		1866AFEC1613702800F36BCC /* BurnsideDocumentEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurnsideDocumentEditor.h; path = BurnsideMail/BurnsideDocumentEditor.h; sourceTree = SOURCE_ROOT; };
+		1866AFED1613702800F36BCC /* BurnsideDocumentEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurnsideDocumentEditor.m; path = BurnsideMail/BurnsideDocumentEditor.m; sourceTree = SOURCE_ROOT; };
+		1866AFEE1613702800F36BCC /* BurnsideMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurnsideMail.h; path = BurnsideMail/BurnsideMail.h; sourceTree = SOURCE_ROOT; };
+		1866AFEF1613702800F36BCC /* BurnsideMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurnsideMail.m; path = BurnsideMail/BurnsideMail.m; sourceTree = SOURCE_ROOT; };
+		1866AFF01613702800F36BCC /* PCCountTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCCountTextField.h; path = BurnsideMail/PCCountTextField.h; sourceTree = SOURCE_ROOT; };
+		1866AFF11613702800F36BCC /* PCCountTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCCountTextField.m; path = BurnsideMail/PCCountTextField.m; sourceTree = SOURCE_ROOT; };
+		1866AFF21613702800F36BCC /* TwitterCharacterCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterCharacterCounterViewController.h; path = BurnsideMail/TwitterCharacterCounterViewController.h; sourceTree = SOURCE_ROOT; };
+		1866AFF31613702800F36BCC /* TwitterCharacterCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterCharacterCounterViewController.m; path = BurnsideMail/TwitterCharacterCounterViewController.m; sourceTree = SOURCE_ROOT; };
+		1866AFF41613702800F36BCC /* TwitterInspectorBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterInspectorBarController.h; path = BurnsideMail/TwitterInspectorBarController.h; sourceTree = SOURCE_ROOT; };
+		1866AFF51613702800F36BCC /* TwitterInspectorBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterInspectorBarController.m; path = BurnsideMail/TwitterInspectorBarController.m; sourceTree = SOURCE_ROOT; };
+		1866AFF61613702800F36BCC /* TwitterUsernameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterUsernameViewController.h; path = BurnsideMail/TwitterUsernameViewController.h; sourceTree = SOURCE_ROOT; };
+		1866AFF71613702800F36BCC /* TwitterUsernameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterUsernameViewController.m; path = BurnsideMail/TwitterUsernameViewController.m; sourceTree = SOURCE_ROOT; };
+		1866B0011613706D00F36BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = BurnsideMail/en.lproj/TwitterCharacterCounterViewController.xib; sourceTree = SOURCE_ROOT; };
+		1866B0041613707400F36BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TwitterUsernameViewController.xib; sourceTree = "<group>"; };
+		18C3C5AD160A6E9800FBE700 /* BurnsideMail.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurnsideMail.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C3C5B0160A6E9800FBE700 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18C3C5B3160A6E9800FBE700 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18C3C5B4160A6E9800FBE700 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18C3C5B5160A6E9800FBE700 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C3C5C9160A887A00FBE700 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		1A7732211613AD2C00A0C978 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C3C5AA160A6E9800FBE700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3C5CA160A887A00FBE700 /* WebKit.framework in Frameworks */,
+				18C3C5B1160A6E9800FBE700 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189F46AA1612579E00176E41 /* Character Counter */ = {
+			isa = PBXGroup;
+			children = (
+				1866AFF21613702800F36BCC /* TwitterCharacterCounterViewController.h */,
+				1866AFF31613702800F36BCC /* TwitterCharacterCounterViewController.m */,
+				1866B0001613706D00F36BCC /* TwitterCharacterCounterViewController.xib */,
+				1866AFF01613702800F36BCC /* PCCountTextField.h */,
+				1866AFF11613702800F36BCC /* PCCountTextField.m */,
+			);
+			name = "Character Counter";
+			sourceTree = "<group>";
+		};
+		189F46AB161257B300176E41 /* Username */ = {
+			isa = PBXGroup;
+			children = (
+				1866AFF61613702800F36BCC /* TwitterUsernameViewController.h */,
+				1866AFF71613702800F36BCC /* TwitterUsernameViewController.m */,
+				1866B0051613707400F36BCC /* TwitterUsernameViewController.xib */,
+			);
+			name = Username;
+			sourceTree = "<group>";
+		};
+		18C3C5A2160A6E9800FBE700 = {
+			isa = PBXGroup;
+			children = (
+				1A7732211613AD2C00A0C978 /* README.md */,
+				18C3C5B6160A6E9800FBE700 /* BurnsideMail */,
+				18C3C5AF160A6E9800FBE700 /* Frameworks */,
+				18C3C5AE160A6E9800FBE700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C3C5AE160A6E9800FBE700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C3C5AD160A6E9800FBE700 /* BurnsideMail.mailbundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C3C5AF160A6E9800FBE700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C3C5B0160A6E9800FBE700 /* Cocoa.framework */,
+				18C3C5C9160A887A00FBE700 /* WebKit.framework */,
+				18C3C5B2160A6E9800FBE700 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C3C5B2160A6E9800FBE700 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C3C5B3160A6E9800FBE700 /* AppKit.framework */,
+				18C3C5B4160A6E9800FBE700 /* CoreData.framework */,
+				18C3C5B5160A6E9800FBE700 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18C3C5B6160A6E9800FBE700 /* BurnsideMail */ = {
+			isa = PBXGroup;
+			children = (
+				18C3C5B7160A6E9800FBE700 /* Supporting Files */,
+				1866AFEE1613702800F36BCC /* BurnsideMail.h */,
+				1866AFEF1613702800F36BCC /* BurnsideMail.m */,
+				1866AFEC1613702800F36BCC /* BurnsideDocumentEditor.h */,
+				1866AFED1613702800F36BCC /* BurnsideDocumentEditor.m */,
+				1866AFF41613702800F36BCC /* TwitterInspectorBarController.h */,
+				1866AFF51613702800F36BCC /* TwitterInspectorBarController.m */,
+				189F46AA1612579E00176E41 /* Character Counter */,
+				189F46AB161257B300176E41 /* Username */,
+			);
+			name = BurnsideMail;
+			path = PanicMail;
+			sourceTree = "<group>";
+		};
+		18C3C5B7160A6E9800FBE700 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1866AFE91613701900F36BCC /* InfoPlist.strings */,
+				1866AFE51613700A00F36BCC /* Burnside-Info.plist */,
+				1866AFE61613700A00F36BCC /* BurnsideMail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C3C5AC160A6E9800FBE700 /* BurnsideMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C3C5BF160A6E9800FBE700 /* Build configuration list for PBXNativeTarget "BurnsideMail" */;
+			buildPhases = (
+				18C3C5A9160A6E9800FBE700 /* Sources */,
+				18C3C5AA160A6E9800FBE700 /* Frameworks */,
+				18C3C5AB160A6E9800FBE700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurnsideMail;
+			productName = PanicMail;
+			productReference = 18C3C5AD160A6E9800FBE700 /* BurnsideMail.mailbundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C3C5A4160A6E9800FBE700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wade Cosgrove";
+			};
+			buildConfigurationList = 18C3C5A7160A6E9800FBE700 /* Build configuration list for PBXProject "BurnsideMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18C3C5A2160A6E9800FBE700;
+			productRefGroup = 18C3C5AE160A6E9800FBE700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C3C5AC160A6E9800FBE700 /* BurnsideMail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C3C5AB160A6E9800FBE700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866AFEB1613701900F36BCC /* InfoPlist.strings in Resources */,
+				1866B0031613707400F36BCC /* TwitterUsernameViewController.xib in Resources */,
+				1866B0021613706D00F36BCC /* TwitterCharacterCounterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C3C5A9160A6E9800FBE700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866AFF81613702800F36BCC /* BurnsideDocumentEditor.m in Sources */,
+				1866AFF91613702800F36BCC /* BurnsideMail.m in Sources */,
+				1866AFFA1613702800F36BCC /* PCCountTextField.m in Sources */,
+				1866AFFB1613702800F36BCC /* TwitterCharacterCounterViewController.m in Sources */,
+				1866AFFC1613702800F36BCC /* TwitterInspectorBarController.m in Sources */,
+				1866AFFD1613702800F36BCC /* TwitterUsernameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1866AFE91613701900F36BCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866AFEA1613701900F36BCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1866B0001613706D00F36BCC /* TwitterCharacterCounterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866B0011613706D00F36BCC /* en */,
+			);
+			name = TwitterCharacterCounterViewController.xib;
+			sourceTree = "<group>";
+		};
+		1866B0051613707400F36BCC /* TwitterUsernameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866B0041613707400F36BCC /* en */,
+			);
+			name = TwitterUsernameViewController.xib;
+			path = BurnsideMail;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C3C5BD160A6E9800FBE700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18C3C5BE160A6E9800FBE700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18C3C5C0160A6E9800FBE700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurnsideMail/BurnsideMail-Prefix.pch";
+				INFOPLIST_FILE = "BurnsideMail/Burnside-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = BurnsideMail;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = mailbundle;
+			};
+			name = Debug;
+		};
+		18C3C5C1160A6E9800FBE700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurnsideMail/BurnsideMail-Prefix.pch";
+				INFOPLIST_FILE = "BurnsideMail/Burnside-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = BurnsideMail;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = mailbundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C3C5A7160A6E9800FBE700 /* Build configuration list for PBXProject "BurnsideMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3C5BD160A6E9800FBE700 /* Debug */,
+				18C3C5BE160A6E9800FBE700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C3C5BF160A6E9800FBE700 /* Build configuration list for PBXNativeTarget "BurnsideMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C3C5C0160A6E9800FBE700 /* Debug */,
+				18C3C5C1160A6E9800FBE700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C3C5A4160A6E9800FBE700 /* Project object */;
+}
