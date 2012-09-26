@@ -31,3 +31,7 @@ Bug Reporting
 -------------
 
 Please file bugs at https://hive.panic.com in the [BurnsidePlugin](https://hive.panic.com/projects/burnside-plugin) project. You have to register first.
+
+Thanks
+------
+We borrowed an [NSObject category](http://christianserving.org/websvn/filedetails.php?repname=TruePreview&path=%2Ftrunk%2FSource%2FTruePreview.m) from [http://christianserving.org/project/truepreview](True Preview).
