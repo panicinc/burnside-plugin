@@ -1,5 +1,5 @@
-Burnside Mail Plugin
-====================
+Burnside Mac OS X Mail Plugin
+=============================
 
 The Burnside mail plugin adds a character count and twitter handle buttons to a toolbar in Apple Mail
 
@@ -10,6 +10,8 @@ You can compile the plugin from source or grab a pre-compiled version from the D
 
 	defaults write ~/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.mail.plist EnableBundles -bool true
 	defaults write ~/Library/Containers/com.apple.mail/Data/Library/Preferences/com.apple.mail.plist BundleCompatibilityVersion 4
+
+These commands are for Mac OS X 10.8.
 
 You may need to execute these commands after each OS or Mail update.
 
