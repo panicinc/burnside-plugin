@@ -13,6 +13,11 @@ You can compile the plugin from source or grab a pre-compiled version from the D
 
 These commands are for Mac OS X 10.8.
 
+	defaults write com.apple.mail EnableBundles -bool true
+	defaults write com.apple.mail BundleCompatibilityVersion 4
+
+These are for 10.7 and 10.6
+
 You may need to execute these commands after each OS or Mail update.
 
 The plugin only becomes active if you're replying to a message to a twitter+ email address. This is the default username used in [burnside](https://github.com/panicinc/burnside).
