@@ -6,7 +6,7 @@ The Burnside mail plugin adds a character count and twitter handle buttons to a 
 Installation
 ------------
 
-You can compile the plugin from source or grab a pre-compiled version from the Downloads section. Install it into $HOME/Library/Mail/Bundles. You'll need to execute the following two commands in Terminal to allow Mail to load the plugin.
+You can compile the plugin from source or grab a pre-compiled version from [our site](http://panic.com/burnside/BurnsideMail.mailbundle.zip). Install it into $HOME/Library/Mail/Bundles. You'll need to execute the following two commands in Terminal to allow Mail to load the plugin.
 
 ### 10.8
 
