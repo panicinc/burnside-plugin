@@ -173,7 +173,7 @@
 		18C3C5A4160A6E9800FBE700 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Wade Cosgrove";
 			};
 			buildConfigurationList = 18C3C5A7160A6E9800FBE700 /* Build configuration list for PBXProject "BurnsideMail" */;
